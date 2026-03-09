@@ -23,5 +23,5 @@ Clone the repository, change your directory, then compile and run:
 ```bash
 git clone https://github.com/foreign-cobra/CS170Project2.git
 cd 170Project2
-g++ -o feature_selection NearestNeighbor.cpp
+g++ -O3 -o feature_selection NearestNeighbor.cpp
 ./feature_selection      # Or feature_selection.exe if you are on Windows
